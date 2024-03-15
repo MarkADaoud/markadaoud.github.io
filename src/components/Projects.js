@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/rps.jpg";
+import projImg2 from "../assets/img/convert.jpg";
+import projImg3 from "../assets/img/growth.jpg";
+import projImg4 from "../assets/img/quiz.jpg" 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,25 +12,28 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Intercative Rock, Paper, Scissors",
+      description: "Using Top-Down Design employed using functions for clearing keyboard buffer, obtaining player choices, and determining the winner based on the game's rules.",
       imgUrl: projImg1,
+      link: "https://github.com/MarkADaoud/Rock-Paper-Scissors"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Menu Style Metric / U.S. Length and Weight Conversions",
+      description: "Employed using user-freindly menus and pointer manuplation while showcasing efficient input handling and accurate calculations",
       imgUrl: projImg2,
+      link: "https://github.com/MarkADaoud/Metric-U.S.-Length-and-Weight-Conversions" 
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Population Growth",
+      description: "Population growth model based on specified paramaters employing a mathematical algorithm to calculate population sizes over consecutive time intervals, adhering to a Fibonacci-like sequence where each population size is the sum of the two preceding population sizes.",
       imgUrl: projImg3,
+      link: "https://github.com/MarkADaoud/Population-Growth"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
+      title: "File-Quiz-Format",
+      description: "Employing file operations, the program employs precise formatting techniques to present the quiz scores and corresponding averages in a structured manner within the output file, ensuring clarity and coherence for subsequent data interpretation.",
+      imgUrl: projImg4,
+    }, 
     {
       title: "Business Startup",
       description: "Design & Development",
@@ -41,6 +45,12 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
   ];
+  const handleProjectClick = (link) => 
+  {
+    // Redirect the user to the specified link
+    window.location.href = link;
+  };
+  
 
   return (
     <section className="project" id="projects">
@@ -72,13 +82,16 @@ export const Projects = () => {
                             return (
                               <ProjectCard
                                 key={index}
-                                {...project}
+                                {...project}  
+                                onClick={() => handleProjectClick(project.link)} 
                                 />
                             )
                           })
                         }
                       </Row>
                     </Tab.Pane>
+
+
                     <Tab.Pane eventKey="section">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
