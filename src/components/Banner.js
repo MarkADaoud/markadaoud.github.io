@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/coding.gif";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -22,7 +22,7 @@ export const Banner = () => {
     return () => { clearInterval(ticker) };
   }, [text])
 
-  const tick = () => {
+  const tick = () => {  
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
     let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Mark Daoud `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Welcome, my name is Mark Daoud and I am a current undergrad student at the University of Massachussets Lowell pursuing my degree in 
-                    Computer Science with a focus in BioChemInformatics. This is my portfolio website showcasing my web develoment skills using React as well 
+                    Computer Science with a focus in Biocheminformatics. This is my portfolio website showcasing my web develoment skills using React as well 
                     as some of my other projects and skills that I have created. 
                   </p>
                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
