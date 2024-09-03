@@ -73,6 +73,13 @@ export const Projects = () => {
       imgUrl: projImg10,
       link: "https://github.com/MarkADaoud/Nfl-stats-models"
     },
+
+    {
+      title: "Coming Soon",
+      description: "More projects will be added in the near future.",
+      imgUrl: projImg9,
+      link: ""
+    },
     
   ];
 
