@@ -9,6 +9,7 @@ import projImg6 from "../assets/img/hangman.jpg";
 import projImg7 from "../assets/img/hawks.jpg";
 import projImg8 from "../assets/img/Web.png";
 import projImg9 from "../assets/img/Comingsoon.jpg"; 
+import projImg10 from "../assets/img/nfl.jpg"; 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -67,10 +68,10 @@ export const Projects = () => {
       link: "https://github.com/MarkADaoud/Portfolio-Website"  
     },
     {
-      title: "Coming Soon",
-      description: "More projects will be added in the near future.",
-      imgUrl: projImg9,
-      link: ""
+      title: "Nfl Stats Predictor",
+      description: "Using data from pro football focus a model was created that can predict Over/Under and if the spread will hit for future games using past games and trends such as week 1 unders to give accurate results.",
+      imgUrl: projImg10,
+      link: "https://github.com/MarkADaoud/Nfl-stats-models"
     },
     
   ];
