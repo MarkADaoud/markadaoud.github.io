@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2dc99950.css",
-    "main.js": "/static/js/main.a7bcff9a.js",
+    "main.js": "/static/js/main.1e563ea0.js",
     "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
     "static/media/Web.png": "/static/media/Web.5aba5c2d81c8bcc1f1cf.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -18,6 +18,7 @@
     "static/media/Back.jpg": "/static/media/Back.7f6795875a22b34da0a5.jpg",
     "static/media/Ferry.jpg": "/static/media/Ferry.d8dbc5b2177be98a17fb.jpg",
     "static/media/Comingsoon.jpg": "/static/media/Comingsoon.7bd02e6879bfbaf09af9.jpg",
+    "static/media/nfl.jpg": "/static/media/nfl.ee3e097faf6223512781.jpg",
     "static/media/hangman.jpg": "/static/media/hangman.11666d84df0632fea355.jpg",
     "static/media/hawks.jpg": "/static/media/hawks.27aea520832af660a8cd.jpg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -34,11 +35,11 @@
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/X.svg": "/static/media/X.b713365dbb09148867a212559ed52aeb.svg",
     "main.2dc99950.css.map": "/static/css/main.2dc99950.css.map",
-    "main.a7bcff9a.js.map": "/static/js/main.a7bcff9a.js.map",
+    "main.1e563ea0.js.map": "/static/js/main.1e563ea0.js.map",
     "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2dc99950.css",
-    "static/js/main.a7bcff9a.js"
+    "static/js/main.1e563ea0.js"
   ]
 }
