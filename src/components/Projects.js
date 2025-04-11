@@ -1,15 +1,17 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/rps.jpg";
-import projImg2 from "../assets/img/convert.jpg";
-import projImg3 from "../assets/img/growth.jpg";
-import projImg4 from "../assets/img/quiz.jpg";
-import projImg5 from "../assets/img/Ferry.jpg";
-import projImg6 from "../assets/img/hangman.jpg";
-import projImg7 from "../assets/img/hawks.jpg";
-import projImg8 from "../assets/img/Web.png";
-import projImg9 from "../assets/img/Comingsoon.jpg"; 
-import projImg10 from "../assets/img/nfl.jpg"; 
+import rps from "../assets/img/rps.jpg";
+import convert from "../assets/img/convert.jpg";
+import growth from "../assets/img/growth.jpg";
+import quiz from "../assets/img/quiz.jpg";
+import ferry from "../assets/img/Ferry.jpg";
+import hangman from "../assets/img/hangman.jpg";
+import hawks from "../assets/img/hawks.jpg";
+import web from "../assets/img/Web.png";
+import soon from "../assets/img/Comingsoon.jpg"; 
+import nfl from "../assets/img/nfl.jpg"; 
+import nbody from "../assets/img/n-body.jpg"; 
+import sokoban from "../assets/img/sokoban.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,37 +22,37 @@ export const Projects = () => {
     {
       title: "Intercative Rock, Paper, Scissors",
       description: "Using Top-Down Design employed using functions for clearing keyboard buffer, obtaining player choices, and determining the winner based on the game's rules.",
-      imgUrl: projImg1,
+      imgUrl: rps,
       link: "https://github.com/MarkADaoud/Rock-Paper-Scissors"
     },
     {
       title: "Menu Style Metric / U.S. Length and Weight Conversions",
       description: "Employed using user-freindly menus and pointer manuplation while showcasing efficient input handling and accurate calculations",
-      imgUrl: projImg2,
+      imgUrl: convert,
       link: "https://github.com/MarkADaoud/Metric-U.S.-Length-and-Weight-Conversions" 
     },
     {
       title: "Population Growth",
       description: "Population growth model based on specified paramaters employing a mathematical algorithm to calculate population sizes over consecutive time intervals, adhering to a Fibonacci-like sequence where each population size is the sum of the two preceding population sizes.",
-      imgUrl: projImg3,
+      imgUrl: growth,
       link: "https://github.com/MarkADaoud/Population-Growth"
     },
     {
       title: "File-Quiz-Format",
       description: "Employing file operations, the program employs precise formatting techniques to present the quiz scores and corresponding averages in a structured manner within the output file, ensuring clarity and coherence for subsequent data interpretation.",
-      imgUrl: projImg4,
+      imgUrl: quiz,
       link: "https://github.com/MarkADaoud/Files-Quiz-Format"
     }, 
     {
       title: "Ferry Loading",
       description: "The Ferry Loading program utilizes a custom queue implementation to simulate ferry crossings, efficiently transporting vehicles across a river while considering capacity constraints. It calculates the minimum number of crossings required and demonstrates practical queue usage in logistical scenarios.",
-      imgUrl: projImg5,
+      imgUrl: ferry,
       link: "https://github.com/MarkADaoud/Ferry-Loading"
     },
     {
       title: "Evil Hangman",
       description: "Evil Hangman is an interactive Hangman game that dynamically selects words to maximize difficulty, utilizing AVL trees and a custom generic vector implementation. Players engage with user-friendly prompts to make guesses, experiencing a challenging and immersive gameplay experience.",
-      imgUrl: projImg6,
+      imgUrl: hangman,
       link: "https://github.com/MarkADaoud/Evil-Hangman-/tree/main"
     },
   ];
@@ -58,26 +60,26 @@ export const Projects = () => {
     {
       title: "Hawks Nest Game",
       description: "Using Unity to create scripts in C#, Hawks Nest is a game where players have to manuever around obstacles to get to the finish line before the time expires to move to the next level. As levels increase difficulty is increased with obstacles such as spinning oponnents that damage your health.",
-      imgUrl: projImg7,
+      imgUrl: hawks,
       link: "https://github.com/MarkADaoud/Hawks-Nest-Game"
     },
     {
       title: "Personal Portfolio Website",
       description: "The current website you are viewing created using react and react-bootstrap showcasing my skills and projects as well as my web-development skills.",
-      imgUrl: projImg8,
+      imgUrl: web,
       link: "https://github.com/MarkADaoud/Portfolio-Website"  
     },
     {
       title: "Nfl Stats Predictor",
       description: "Using data from pro football focus a model was created that can predict Over/Under and if the spread will hit for future games using past games and trends such as week 1 unders to give accurate results.",
-      imgUrl: projImg10,
+      imgUrl: nfl,
       link: "https://github.com/MarkADaoud/Nfl-stats-models"
     },
 
     {
       title: "Coming Soon",
       description: "More projects will be added in the near future.",
-      imgUrl: projImg9,
+      imgUrl: soon,
       link: ""
     },
     
@@ -86,11 +88,24 @@ export const Projects = () => {
   const projects3 = [
   
     {
+      title: "N-body Simulation",
+      description: "The N-body simulation models the gravitational interactions between multiple celestial bodies using Newtonian physics. It visually displays their motion over time, updating positions and velocities based on real-time force calculations and numerical integration.",
+      imgUrl: nbody,
+      link: "https://github.com/MarkADaoud/N-body-Simulation"
+    },
+    {
+      title: "Sokoban",
+      description: "Sokoban is a C++ project that reads level files, renders game elements using SFML, and handles player movement, box pushing, and collision logic. The game loop processes keyboard input, updates the game state, and checks for win conditions, with each level defined in a .lvl file parsed into a 2D grid.",
+      imgUrl: sokoban,
+      link: "https://github.com/MarkADaoud/Sokoban"
+    },
+    {
       title: "Coming Soon",
       description: "More projects will be added in the near future.",
-      imgUrl: projImg9,
+      imgUrl: soon,
       link: ""
     },
+
     
   ];
   
